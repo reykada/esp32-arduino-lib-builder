@@ -46,7 +46,7 @@ RUN : \
 # Use LIBBUILDER_CLONE_SHALLOW=1 to peform shallow clone (i.e. --depth=1 --shallow-submodules)
 # Use LIBBUILDER_CLONE_SHALLOW_DEPTH=X to define the depth if LIBBUILDER_CLONE_SHALLOW is used (i.e. --depth=X)
 
-ARG LIBBUILDER_CLONE_URL=https://github.com/espressif/esp32-arduino-lib-builder
+ARG LIBBUILDER_CLONE_URL=https://github.com/reykada/esp32-arduino-lib-builder
 ARG LIBBUILDER_CLONE_BRANCH_OR_TAG=master
 ARG LIBBUILDER_CHECKOUT_REF=
 ARG LIBBUILDER_CLONE_SHALLOW=
